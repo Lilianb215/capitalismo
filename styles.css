@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  color: #fff;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #202020;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.logo {
+  width: 50px;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.bell {
+  width: 20px;
+  height: 23px;
+  margin-right: 25px;
+}
+
+.usuario {
+  width: 35px;
+  height: 30px;
+  margin-right: 40px;
+}
+
+.search-bar {
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center; /* Centralizado horizontalmente */
+  margin: 0 20px; /* Espaçamento horizontal */
+}
+
+.search-bar input {
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  width: 350px; /* Tamanho reduzido */
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; /* Alterado para flex-start */
+  height: 100vh;
+  padding-right: 20px; /* Espaçamento no lado direito */
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralizado horizontalmente */
+  margin-right: 20px;
+  margin-top: 25px; /* Espaçamento superior adicionado */
+}
+
+.video {
+  margin-top: 45px;
+  width: 900px; /* Aumento horizontal */
+  height: 500px; /* Ajuste vertical */
+  background-color: #333;
+}
+
+.video-title {
+  margin-top: 1px;
+  margin-right: 350px;
+  text-align: center;
+}
+
+.chat-container {
+  background-color: #202020;
+  width: 350px; /* Tamanho horizontal reduzido */
+  height: 70vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-top: 70px; /* Espaçamento superior adicionado */
+}
+
+.message span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #aaa;
+}
+
+.chat-header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.chat-title {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.chat-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.user-input {
+  background-color: #333;
+  padding: 10px;
+  border-top: 1px solid #555;
+}
+
+.user-input input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+.user-input input:focus {
+  outline: none;
+}
+
+.user-input input::placeholder {
+  color: #888;
+}
